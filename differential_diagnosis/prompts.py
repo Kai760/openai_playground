@@ -1,9 +1,7 @@
 import pandas as pd
 import os
-from tqdm import tqdm
 from openai import OpenAI
 
-tqdm.pandas()
 
 
 instruction = """
